@@ -128,6 +128,10 @@ for paper in past_exams['papers']:
  p=src/'exams'/paper['file']
  if p.exists():shutil.copyfile(p,out/paper['url'])
  source_meta.append({'title':paper['title']+' — '+paper['file'],'url':paper['url'],'type':'PDF','pages':1,'kind':'past-exam',**({'external':True} if paper['url'].startswith('https://') else {})})
+from urllib.parse import quote
+for source in source_meta:
+ source['publicUrl']='https://github.com/MatthewBodnar/M_SCP/blob/main/dist/'+quote(source['url'],safe='/')
+ source['downloadUrl']='https://raw.githubusercontent.com/MatthewBodnar/M_SCP/main/dist/'+quote(source['url'],safe='/')
 exam_text='\n\n'.join('# '+p['title']+'\n\n'+'\n\n'.join('## Question '+str(q['number'])+' — '+str(q['points'])+' points\n\n'+q['prompt']+'\n\nWhat it asks: '+q['plain']+'\n\nModel answer:\n\n'+'\n\n'.join(q['answer'])+'\n\nSelf-check:\n'+'\n'.join('- '+item for item in q['checklist'])+'\n\nWatch out: '+q['pitfall'] for q in p['questions']) for p in past_exams['papers'])
 words=sum(c['words'] for c in chapters)+sum(len((e['exact']+' '+e['simple']+' '+e['example']+' '+e['note']).split()) for e in entries)+len(exam_text.split())
 data={'chapters':chapters,'glossary':entries,'sources':source_meta,'figures':figs,'words':words,'pastExams':past_exams,'sourceNote':'The earlier working draft did not survive the environment reset. The initial 28,094-word edition was rebuilt from the 16 original uploads and prior review notes, with 31 redrawn study diagrams. This edition preserves that material and adds the three supplied past papers, all 12 questions, study model answers, and expanded bullwhip, risk, sustainability and SCOR explanations. Primary references supplement bullwhip and SCOR and are identified in Past exams. The separate Panigrahi et al. review named on the inventory slide and optional further readings were not supplied as full texts. The dates and official marking schemes for the past papers were not supplied.'}

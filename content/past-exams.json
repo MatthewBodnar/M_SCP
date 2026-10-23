@@ -23,7 +23,7 @@
       "id": "paper-1",
       "title": "Past paper 1",
       "file": "GetInsperaExamPdf1.pdf",
-      "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/exams/GetInsperaExamPdf1.pdf",
+      "url": "sources/exams/GetInsperaExamPdf1.pdf",
       "questions": [
         {
           "id": "paper-1-q1",
@@ -157,7 +157,7 @@
       "id": "paper-2",
       "title": "Past paper 2",
       "file": "GetInsperaExamPdf2.pdf",
-      "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/exams/GetInsperaExamPdf2.pdf",
+      "url": "sources/exams/GetInsperaExamPdf2.pdf",
       "questions": [
         {
           "id": "paper-2-q1",
@@ -295,7 +295,7 @@
       "id": "paper-3",
       "title": "Past paper 3",
       "file": "GetInsperaExamPdf3.pdf",
-      "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/exams/GetInsperaExamPdf3.pdf",
+      "url": "sources/exams/GetInsperaExamPdf3.pdf",
       "questions": [
         {
           "id": "paper-3-q1",

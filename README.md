@@ -14,8 +14,8 @@ A complete interactive revision website for the supplied Module 5 lectures, read
 - Model answers, memory cues, coverage checklists, paper/topic/point filters and a practice stopwatch.
 - Device-local answer drafts and self-checks, with an answer download button.
 - Full-course search including past-exam answers, text-size controls, focus/dark modes and reading progress.
-- Links to all 16 original course files and 3 past-exam PDFs in the private Study Lab. Original document binaries are excluded from this public repository.
-- Responsive layouts and offline caching of the core website and diagrams after an initial online visit. Original documents remain in the private Study Lab and are not part of this public export’s offline cache.
+- All 16 original course files plus the 3 past-exam PDFs available in the source reader.
+- Responsive layouts and offline caching of the core website and diagrams after an initial online visit. Original PDFs become available offline after opening them online.
 
 ## Run
 
@@ -29,7 +29,7 @@ Open `http://localhost:8000`. Use HTTP, since course data is loaded with `fetch`
 
 ## Edit and rebuild
 
-`content/` contains the 14 chapter Markdown files and `past-exams.json`. The latter retains the exact question wording, original point values, teaching answers, checklist items and chapter links. The private source checkout retains `source-material/`. This public export rebuilds from the recorded glossary data and source register in `content/`; its document links point to the private Study Lab.
+`content/` contains the 14 chapter Markdown files and `past-exams.json`. The latter retains the exact question wording, original point values, teaching answers, checklist items and chapter links. `source-material/` retains the supplied originals; the exam PDFs are in `source-material/exams/`.
 
 The build requires Python packages `python-docx` and `PyMuPDF`. The output is committed, so rebuilding is optional when hosting or reading.
 
@@ -43,6 +43,10 @@ node scripts/check-calculations.cjs
 ```
 
 `scripts/check.py` validates all chapters, glossary entries, diagram references and source files, compares all 12 question prompts with their PDFs, checks the 5/5/10/10 point structure and verifies links to specific course sections. Calculation checks cover worked values, changed inputs and invalid inputs.
+
+## Document access
+
+All 19 original documents are included in this public repository, with the owner’s explicit approval. Study Lab’s Original sources page provides the built-in reader plus public GitHub view and download links for every file. Existing invited viewers can use these links without separate file-sharing permissions. The original files are in `source-material/`, and the hosted copies are in `dist/sources/`.
 
 ## Hosting
 

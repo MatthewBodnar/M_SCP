@@ -1,114 +1,130 @@
 [
   {
     "title": "Glossary for operations- and inventory management",
-    "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/glossary-for-operations-and-inventory-management.docx",
+    "url": "sources/glossary-for-operations-and-inventory-management.docx",
     "type": "DOCX",
     "pages": null,
-    "external": true
+    "publicUrl": "https://github.com/MatthewBodnar/M_SCP/blob/main/dist/sources/glossary-for-operations-and-inventory-management.docx",
+    "downloadUrl": "https://raw.githubusercontent.com/MatthewBodnar/M_SCP/main/dist/sources/glossary-for-operations-and-inventory-management.docx"
   },
   {
     "title": "Leagility - Integrating the lean and agile manufacturing paradigms in the total supply chain",
-    "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/leagility-integrating-the-lean-and-agile-manufacturing-paradigms-in-the-total-supply-chain.pdf",
+    "url": "sources/leagility-integrating-the-lean-and-agile-manufacturing-paradigms-in-the-total-supply-chain.pdf",
     "type": "PDF",
     "pages": 12,
-    "external": true
+    "publicUrl": "https://github.com/MatthewBodnar/M_SCP/blob/main/dist/sources/leagility-integrating-the-lean-and-agile-manufacturing-paradigms-in-the-total-supply-chain.pdf",
+    "downloadUrl": "https://raw.githubusercontent.com/MatthewBodnar/M_SCP/main/dist/sources/leagility-integrating-the-lean-and-agile-manufacturing-paradigms-in-the-total-supply-chain.pdf"
   },
   {
     "title": "Negotiations an introduction",
-    "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/negotiations-an-introduction.pdf",
+    "url": "sources/negotiations-an-introduction.pdf",
     "type": "PDF",
     "pages": 5,
-    "external": true
+    "publicUrl": "https://github.com/MatthewBodnar/M_SCP/blob/main/dist/sources/negotiations-an-introduction.pdf",
+    "downloadUrl": "https://raw.githubusercontent.com/MatthewBodnar/M_SCP/main/dist/sources/negotiations-an-introduction.pdf"
   },
   {
     "title": "Purchasing Must Become Supply Management",
-    "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/purchasing-must-become-supply-management.pdf",
+    "url": "sources/purchasing-must-become-supply-management.pdf",
     "type": "PDF",
     "pages": 12,
-    "external": true
+    "publicUrl": "https://github.com/MatthewBodnar/M_SCP/blob/main/dist/sources/purchasing-must-become-supply-management.pdf",
+    "downloadUrl": "https://raw.githubusercontent.com/MatthewBodnar/M_SCP/main/dist/sources/purchasing-must-become-supply-management.pdf"
   },
   {
     "title": "Readings Submodule 5 Marketing and Supply Chain for Managers 2026",
-    "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/readings-submodule-5-marketing-and-supply-chain-for-managers-2026.pdf",
+    "url": "sources/readings-submodule-5-marketing-and-supply-chain-for-managers-2026.pdf",
     "type": "PDF",
     "pages": 1,
-    "external": true
+    "publicUrl": "https://github.com/MatthewBodnar/M_SCP/blob/main/dist/sources/readings-submodule-5-marketing-and-supply-chain-for-managers-2026.pdf",
+    "downloadUrl": "https://raw.githubusercontent.com/MatthewBodnar/M_SCP/main/dist/sources/readings-submodule-5-marketing-and-supply-chain-for-managers-2026.pdf"
   },
   {
     "title": "Sub-module 5 Marketing and Supply Chain for Managers Industrial Networks",
-    "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/sub-module-5-marketing-and-supply-chain-for-managers-industrial-networks.pdf",
+    "url": "sources/sub-module-5-marketing-and-supply-chain-for-managers-industrial-networks.pdf",
     "type": "PDF",
     "pages": 8,
-    "external": true
+    "publicUrl": "https://github.com/MatthewBodnar/M_SCP/blob/main/dist/sources/sub-module-5-marketing-and-supply-chain-for-managers-industrial-networks.pdf",
+    "downloadUrl": "https://raw.githubusercontent.com/MatthewBodnar/M_SCP/main/dist/sources/sub-module-5-marketing-and-supply-chain-for-managers-industrial-networks.pdf"
   },
   {
     "title": "Sub-module 5 Marketing and Supply Chain for Managers Introduction to marketing and industrial marketing",
-    "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/sub-module-5-marketing-and-supply-chain-for-managers-introduction-to-marketing-and-industrial-marketing.pdf",
+    "url": "sources/sub-module-5-marketing-and-supply-chain-for-managers-introduction-to-marketing-and-industrial-marketing.pdf",
     "type": "PDF",
     "pages": 10,
-    "external": true
+    "publicUrl": "https://github.com/MatthewBodnar/M_SCP/blob/main/dist/sources/sub-module-5-marketing-and-supply-chain-for-managers-introduction-to-marketing-and-industrial-marketing.pdf",
+    "downloadUrl": "https://raw.githubusercontent.com/MatthewBodnar/M_SCP/main/dist/sources/sub-module-5-marketing-and-supply-chain-for-managers-introduction-to-marketing-and-industrial-marketing.pdf"
   },
   {
     "title": "Sub-module 5 Marketing and Supply Chain for Managers Inventory Management",
-    "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/sub-module-5-marketing-and-supply-chain-for-managers-inventory-management.pdf",
+    "url": "sources/sub-module-5-marketing-and-supply-chain-for-managers-inventory-management.pdf",
     "type": "PDF",
     "pages": 10,
-    "external": true
+    "publicUrl": "https://github.com/MatthewBodnar/M_SCP/blob/main/dist/sources/sub-module-5-marketing-and-supply-chain-for-managers-inventory-management.pdf",
+    "downloadUrl": "https://raw.githubusercontent.com/MatthewBodnar/M_SCP/main/dist/sources/sub-module-5-marketing-and-supply-chain-for-managers-inventory-management.pdf"
   },
   {
     "title": "Sub-module 5 Marketing and Supply Chain for Managers Negotiations",
-    "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/sub-module-5-marketing-and-supply-chain-for-managers-negotiations.pdf",
+    "url": "sources/sub-module-5-marketing-and-supply-chain-for-managers-negotiations.pdf",
     "type": "PDF",
     "pages": 22,
-    "external": true
+    "publicUrl": "https://github.com/MatthewBodnar/M_SCP/blob/main/dist/sources/sub-module-5-marketing-and-supply-chain-for-managers-negotiations.pdf",
+    "downloadUrl": "https://raw.githubusercontent.com/MatthewBodnar/M_SCP/main/dist/sources/sub-module-5-marketing-and-supply-chain-for-managers-negotiations.pdf"
   },
   {
     "title": "Sub-module 5 Marketing and Supply Chain for Managers Operations Management",
-    "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/sub-module-5-marketing-and-supply-chain-for-managers-operations-management.pdf",
+    "url": "sources/sub-module-5-marketing-and-supply-chain-for-managers-operations-management.pdf",
     "type": "PDF",
     "pages": 16,
-    "external": true
+    "publicUrl": "https://github.com/MatthewBodnar/M_SCP/blob/main/dist/sources/sub-module-5-marketing-and-supply-chain-for-managers-operations-management.pdf",
+    "downloadUrl": "https://raw.githubusercontent.com/MatthewBodnar/M_SCP/main/dist/sources/sub-module-5-marketing-and-supply-chain-for-managers-operations-management.pdf"
   },
   {
     "title": "Sub-module 5 Marketing and Supply Chain for Managers Purchasing and Supply Management",
-    "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/sub-module-5-marketing-and-supply-chain-for-managers-purchasing-and-supply-management.pdf",
+    "url": "sources/sub-module-5-marketing-and-supply-chain-for-managers-purchasing-and-supply-management.pdf",
     "type": "PDF",
     "pages": 14,
-    "external": true
+    "publicUrl": "https://github.com/MatthewBodnar/M_SCP/blob/main/dist/sources/sub-module-5-marketing-and-supply-chain-for-managers-purchasing-and-supply-management.pdf",
+    "downloadUrl": "https://raw.githubusercontent.com/MatthewBodnar/M_SCP/main/dist/sources/sub-module-5-marketing-and-supply-chain-for-managers-purchasing-and-supply-management.pdf"
   },
   {
     "title": "Sub-module 5 Marketing and Supply Chain for Managers SCM and Strategy Fundamentals",
-    "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/sub-module-5-marketing-and-supply-chain-for-managers-scm-and-strategy-fundamentals.pdf",
+    "url": "sources/sub-module-5-marketing-and-supply-chain-for-managers-scm-and-strategy-fundamentals.pdf",
     "type": "PDF",
     "pages": 12,
-    "external": true
+    "publicUrl": "https://github.com/MatthewBodnar/M_SCP/blob/main/dist/sources/sub-module-5-marketing-and-supply-chain-for-managers-scm-and-strategy-fundamentals.pdf",
+    "downloadUrl": "https://raw.githubusercontent.com/MatthewBodnar/M_SCP/main/dist/sources/sub-module-5-marketing-and-supply-chain-for-managers-scm-and-strategy-fundamentals.pdf"
   },
   {
     "title": "The changing role of purchasing -  reconsidering three strategic issues",
-    "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/the-changing-role-of-purchasing-reconsidering-three-strategic-issues.pdf",
+    "url": "sources/the-changing-role-of-purchasing-reconsidering-three-strategic-issues.pdf",
     "type": "PDF",
     "pages": 9,
-    "external": true
+    "publicUrl": "https://github.com/MatthewBodnar/M_SCP/blob/main/dist/sources/the-changing-role-of-purchasing-reconsidering-three-strategic-issues.pdf",
+    "downloadUrl": "https://raw.githubusercontent.com/MatthewBodnar/M_SCP/main/dist/sources/the-changing-role-of-purchasing-reconsidering-three-strategic-issues.pdf"
   },
   {
     "title": "The theory and practice of business networking",
-    "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/the-theory-and-practice-of-business-networking.pdf",
+    "url": "sources/the-theory-and-practice-of-business-networking.pdf",
     "type": "PDF",
     "pages": 10,
-    "external": true
+    "publicUrl": "https://github.com/MatthewBodnar/M_SCP/blob/main/dist/sources/the-theory-and-practice-of-business-networking.pdf",
+    "downloadUrl": "https://raw.githubusercontent.com/MatthewBodnar/M_SCP/main/dist/sources/the-theory-and-practice-of-business-networking.pdf"
   },
   {
     "title": "barney-1991-firm-resources-and-sustained-competitive-advantage",
-    "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/barney-1991-firm-resources-and-sustained-competitive-advantage.pdf",
+    "url": "sources/barney-1991-firm-resources-and-sustained-competitive-advantage.pdf",
     "type": "PDF",
     "pages": 22,
-    "external": true
+    "publicUrl": "https://github.com/MatthewBodnar/M_SCP/blob/main/dist/sources/barney-1991-firm-resources-and-sustained-competitive-advantage.pdf",
+    "downloadUrl": "https://raw.githubusercontent.com/MatthewBodnar/M_SCP/main/dist/sources/barney-1991-firm-resources-and-sustained-competitive-advantage.pdf"
   },
   {
     "title": "excerpt from chapter 1 Martin Christopher",
-    "url": "https://supply-chain-study-lab.open-pike-1567.chatgpt.site/sources/excerpt-from-chapter-1-martin-christopher.pdf",
+    "url": "sources/excerpt-from-chapter-1-martin-christopher.pdf",
     "type": "PDF",
     "pages": 16,
-    "external": true
+    "publicUrl": "https://github.com/MatthewBodnar/M_SCP/blob/main/dist/sources/excerpt-from-chapter-1-martin-christopher.pdf",
+    "downloadUrl": "https://raw.githubusercontent.com/MatthewBodnar/M_SCP/main/dist/sources/excerpt-from-chapter-1-martin-christopher.pdf"
   }
 ]
