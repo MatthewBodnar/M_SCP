@@ -1,0 +1,8 @@
+node_modules/
+.openai/local/
+artifacts/
+*.tar.gz
+
+# Keep original document binaries in the private Study Lab.
+source-material/
+dist/sources/

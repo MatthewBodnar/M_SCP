@@ -1,0 +1,126 @@
+{
+  "needs": {
+    "title": "Needs → wants → demands",
+    "description": "A need takes a specific form as a want; purchasing power makes it demand."
+  },
+  "stp": {
+    "title": "Choose whom to serve and what to promise",
+    "description": "Segmentation, targeting and positioning, with two tasks in each stage."
+  },
+  "supply": {
+    "title": "Manage flows and relationships together",
+    "description": "Physical goods generally move downstream and requirements upstream. Information also travels both ways."
+  },
+  "integration": {
+    "title": "The scope of integration expands",
+    "description": "Baseline, functional, internal and external integration."
+  },
+  "fourrs": {
+    "title": "Four Rs, four distinct questions",
+    "description": "Responsiveness, reliability, resilience and relationships each address a different requirement."
+  },
+  "costvalue": {
+    "title": "Two sources of competitive advantage",
+    "description": "A cost and value advantage can be combined. Both dimensions increase toward the preferred high-high position."
+  },
+  "experience": {
+    "title": "Experience concerns cumulative output",
+    "description": "Illustrative unit cost declines as cumulative output increases. This is not a measured dataset."
+  },
+  "valuechain": {
+    "title": "Porter’s value chain",
+    "description": "Four support activities span five primary activities. Each contributes to value and cost."
+  },
+  "vrin": {
+    "title": "Four tests for a sustained resource advantage",
+    "description": "Valuable, rare, imperfectly imitable and non-substitutable. All tests require analysis in context."
+  },
+  "ara": {
+    "title": "ARA: who, what and doing",
+    "description": "Actor bonds, resource ties and activity links influence one another."
+  },
+  "interaction": {
+    "title": "IMP: interaction sits inside a wider context",
+    "description": "Organisations and individuals exchange products, information, finance and social contact within an atmosphere and environment."
+  },
+  "networklevels": {
+    "title": "Three layers across three analysis levels",
+    "description": "ARA layers and relationship, small-world, wider-world levels are different dimensions."
+  },
+  "makebuy": {
+    "title": "Ownership and coordination are different choices",
+    "description": "Market contracting, quasi-integration and vertical integration form a continuum."
+  },
+  "tiers": {
+    "title": "A supplier base has structure, not just a count",
+    "description": "Tier-one suppliers interface with the focal firm and coordinate lower-tier suppliers."
+  },
+  "kraljic": {
+    "title": "Kraljic’s purchasing portfolio",
+    "description": "Profit impact rises upward; supply risk rises rightward."
+  },
+  "kraljicprocess": {
+    "title": "The matrix starts a wider management process",
+    "description": "Classification is followed by market analysis, strategic positioning and action plans."
+  },
+  "transformation": {
+    "title": "Operations transform inputs into outcomes",
+    "description": "Inputs pass through transformation to outputs. Feedback improves future decisions."
+  },
+  "timeprocess": {
+    "title": "Follow elapsed time, not only processing time",
+    "description": "Teaching example: four hours of activity plus twelve hours waiting, then six waiting hours removed."
+  },
+  "fishbone": {
+    "title": "Organise possible causes before testing them",
+    "description": "People, machines, material and methods are investigation categories, not proof of causation."
+  },
+  "ptime": {
+    "title": "Can the full process fit the customer’s wait?",
+    "description": "Illustrative source-make-deliver time totals eight days while acceptable wait is three."
+  },
+  "postpone": {
+    "title": "Delay differentiation, preserve options",
+    "description": "A common base becomes order-specific only when useful information is known."
+  },
+  "leagile": {
+    "title": "Lean upstream · agile downstream",
+    "description": "The customer order decoupling point separates common forecast-supported work from order-specific response."
+  },
+  "generic": {
+    "title": "Match strategy to demand and supply timing",
+    "description": "Demand predictability is horizontal; long supply lead time is above short supply lead time."
+  },
+  "costtypes": {
+    "title": "Three independent cost dimensions",
+    "description": "Fixed/variable, direct/indirect, engineered/discretionary classify different properties."
+  },
+  "breakeven": {
+    "title": "Break-even: contribution covers fixed cost",
+    "description": "Illustrative linear chart: F=1200, p=15, v=9; break-even is 200 shirts."
+  },
+  "reorder": {
+    "title": "Reorder before the stock is exhausted",
+    "description": "Q=600, demand=40/day, lead=5 days, safety=60, ROP=260. Schematic sawtooth."
+  },
+  "eoq": {
+    "title": "EOQ balances opposing costs",
+    "description": "Ordering falls as Q increases; holding rises; their sum has an optimum at Q=600 in the worked example."
+  },
+  "abc": {
+    "title": "Prioritise attention by annual usage value",
+    "description": "Illustrative five-item dataset totals €10,000; the first item contributes €8,000."
+  },
+  "systems": {
+    "title": "Information tools support different decisions",
+    "description": "ERP integrates processes; MPS plans output; MRP plans material; WMS supports warehouse execution."
+  },
+  "negotiationpie": {
+    "title": "Divide value · create value",
+    "description": "Distributive bargaining and integrative problem solving can occur in the same negotiation."
+  },
+  "phases": {
+    "title": "Agreement is not finished until it is implemented",
+    "description": "Preparation, greeting, introduction, argumentation, compromise, closure and realisation."
+  }
+}

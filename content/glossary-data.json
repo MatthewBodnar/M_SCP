@@ -1,0 +1,202 @@
+[
+  {
+    "term": "3PL – Third Party Logistics",
+    "exact": "3PL stands for third-party logistics. It means a business hires an outside company to handle part or all its supply chain operations, such as warehousing, inventory tracking, packing, shipping, and returns.",
+    "simple": "An outside firm performs logistics work for your business.",
+    "example": "Campus Tees hires a fulfilment company to pack and ship orders.",
+    "note": "The service scope varies; it need not cover every supply-chain activity.",
+    "id": "3pl-third-party-logistics"
+  },
+  {
+    "term": "4PL – Fourth Party Logistics",
+    "exact": "Fourth-party logistics (4PL) is a supply chain management model where a company outsources its entire end-to-end logistics network and strategy to a single external provider.\n\n4PL has a high-level management focus, handling integration and oversight of the entire supply chain often including a 3PL.",
+    "simple": "One provider coordinates the broader logistics network and its strategy.",
+    "example": "A provider designs the network and oversees warehouses and carriers.",
+    "note": "Focus on the coordination role, not merely provider size.",
+    "id": "4pl-fourth-party-logistics"
+  },
+  {
+    "term": "ABC classification",
+    "exact": "A common way to classify inventory is the ABC classification.\n\nA items have a high value, often representing about 80% of the total inventory\n\nB items have medium value\n\nC items have low value\n\nABC classification is used to put effort to items that affect the result the most. It is connected to the Pareto criteria (80/20 rule) where 20% of you inventory items represent 80% of the cost.",
+    "simple": "Give the most economic attention to the items representing the most value.",
+    "example": "One SKU accounts for €8,000 of a €10,000 annual usage-value total.",
+    "note": "80/20 is an illustration, not a mandatory exact split. Critical low-value items still matter.",
+    "id": "abc-classification"
+  },
+  {
+    "term": "Agile supply chain management",
+    "exact": "Agile supply chain management focuses on flexibility and responsiveness to meet rapidly changing customer demands and market conditions. It also makes the process efficient and empowers the employees.",
+    "simple": "Be able to respond to changing demand using knowledge and flexible capabilities.",
+    "example": "Switch the final print mix when confirmed club orders change.",
+    "note": "Agile does not mean unlimited spending or speed without coordination.",
+    "id": "agile-supply-chain-management"
+  },
+  {
+    "term": "Business Process Reengineering (BPR)",
+    "exact": "Business Process Reengineering (BPR) is the radical redesign of core business workflows and processes to achieve dramatic improvements in productivity, cycle times, and quality",
+    "simple": "Redesign a core process radically rather than only improve one small step.",
+    "example": "Replace disconnected forms with a redesigned order-to-delivery flow.",
+    "note": "Contrast the scale of redesign with Kaizen’s ongoing improvement emphasis.",
+    "id": "business-process-reengineering-bpr"
+  },
+  {
+    "term": "EOQ – Economic Order Quantity",
+    "exact": "The Economic Order Quantity is the optimal number of items to order at a given time. The EOQ formula (sometime referred to as the Wilson formula) balances two costs. The cost of ordering inventory falls with the increase in ordering volume due to purchasing on economies of scale. However, as the size of inventory grows, the cost of holding the inventory rises. EOQ is the exact point that minimizes both of these inversely related costs, see appendix A for the formula and its variables. ",
+    "simple": "Choose the lot size balancing annual order-event cost and stockholding cost.",
+    "example": "D=12,000, K=30, h=2 gives EOQ=600 units.",
+    "note": "The basic model minimises the sum, not each cost separately. Fewer orders reduce annual ordering cost; a unit-price discount is not assumed.",
+    "id": "eoq-economic-order-quantity"
+  },
+  {
+    "term": "ERP – Enterprise Resource Planning",
+    "exact": "Enterprise resource planning (ERP) is the integrated management of main business processes, often in real time and mediated by software and technology.",
+    "simple": "Integrate business processes and data so departments can coordinate.",
+    "example": "Sales, purchasing and finance use consistent order information.",
+    "note": "Software alone does not create accurate data or well-designed processes.",
+    "id": "erp-enterprise-resource-planning"
+  },
+  {
+    "term": "JIT – Just In Time",
+    "exact": "Just-in-time (JIT) inventory management aims to increase efficiency and reduce costs by ordering products only on an as-needed basis. ",
+    "simple": "Provide materials close to when they are needed instead of building unnecessary stock.",
+    "example": "Replenish packing material in reliable small flows.",
+    "note": "JIT requires quality, reliable processes and coordination; it is not a literal zero-stock command.",
+    "id": "jit-just-in-time"
+  },
+  {
+    "term": "Kanban",
+    "exact": "Kanban is a just-in-time system in which new item orders are triggered automatically via cards or other signals.",
+    "simple": "Use a signal to authorise replenishment after consumption.",
+    "example": "An empty bin triggers a refill card.",
+    "note": "Signal rules and quantities must fit demand and replenishment lead time.",
+    "id": "kanban"
+  },
+  {
+    "term": "Kaizen",
+    "exact": "Kaizen is a Japanese philosophy focusing on continuous improvement. ",
+    "simple": "Keep making and evaluating improvements.",
+    "example": "Refine the artwork checklist after discovering a recurring error.",
+    "note": "Continuous improvement can involve people across the organisation.",
+    "id": "kaizen"
+  },
+  {
+    "term": "FIFO – First In First Out",
+    "exact": "The oldest items in the inventory are sold first. Therefore, the cost of the oldest item should be used when calculating your cost of sold goods. Compare with LIFO.",
+    "simple": "Assign the oldest inventory costs to the units sold first.",
+    "example": "Ten units at €2 then ten at €3; selling ten gives FIFO cost of €20.",
+    "note": "Physical rotation and accounting cost assumptions are related but distinct.",
+    "id": "fifo-first-in-first-out"
+  },
+  {
+    "term": "Lean supply chain management",
+    "exact": "Lean supply chain management focuses on waste reduction, inventory optimization and continuous improvement,",
+    "simple": "Reduce waste and improve flow while maintaining the required service.",
+    "example": "Remove duplicate entry and shorten queues.",
+    "note": "Lean does not require removing every useful buffer without understanding its role.",
+    "id": "lean-supply-chain-management"
+  },
+  {
+    "term": "LIFO – Last In First Out",
+    "exact": "When using LIFO as an inventory valuation method it is assumed that the Last items in are sold First. An example of this could be companies that sell sand or gravel. Compare with FIFO.",
+    "simple": "Assign the newest inventory costs to the units sold first.",
+    "example": "The same purchases produce LIFO cost of €30 for ten sold units.",
+    "note": "This explains the concept; it does not claim universal accounting permission.",
+    "id": "lifo-last-in-first-out"
+  },
+  {
+    "term": "MPS – Master Production Schedule",
+    "exact": "A production plan that helps you to determine when to order and how to allocate production resources like personnel and machines. ",
+    "simple": "Plan what finished output to produce and when.",
+    "example": "Schedule 300 event shirts next week.",
+    "note": "MRP then translates the output plan into material requirements.",
+    "id": "mps-master-production-schedule"
+  },
+  {
+    "term": "MRO = Maintenance, repair, and operating",
+    "exact": "MRO items are anything that is used to maintain, repair, and operate your inventory management system.",
+    "simple": "Supplies keep the operating system running rather than becoming the main sold product.",
+    "example": "A printer belt or cleaning material supports production.",
+    "note": "The source wording is narrower than broad operational usage; learn its wording and the underlying support role.",
+    "id": "mro-maintenance-repair-and-operating"
+  },
+  {
+    "term": "MRP – Material Requirements Planning",
+    "exact": "Material Requirements Planning is a system that helps businesses manage inventory by determining what materials are needed, in what quantities, and when they are required for production.",
+    "simple": "Work out required materials, quantities and timing from the production plan.",
+    "example": "300 shirts minus 80 suitable blanks on hand implies 220 additional blanks before other adjustments.",
+    "note": "A complete MRP system also considers receipts, reservations, lead times and planning rules.",
+    "id": "mrp-material-requirements-planning"
+  },
+  {
+    "term": "MUDA – Waste",
+    "exact": "There are seven kinds of waste (MUDA), 1 Overproduction, 2 Defects, 3 Inventory, 4 Motion, 5 Over processing, 6 Transporting, 7 Waiting. ",
+    "simple": "Look for seven forms of unnecessary resource use.",
+    "example": "A batch waits for approval, is moved unnecessarily and then needs reprinting.",
+    "note": "Motion is people moving; transport is goods moving. Waste categories can interact.",
+    "id": "muda-waste"
+  },
+  {
+    "term": "QR – Quick Repsonse",
+    "exact": "Quick Response (QR) Code Inventory Management uses scannable optical labels to track stock levels, locations, and product details in real time.",
+    "simple": "The paragraph describes QR-code scanning to identify and track stock.",
+    "example": "Scan a code when receiving a carton.",
+    "note": "The heading has the source’s spelling. QR codes and agile quick-response strategy are different uses of QR.",
+    "id": "qr-quick-repsonse"
+  },
+  {
+    "term": "RFID = Radio-frequency identification",
+    "exact": "Radio-frequency identification (RFID) is used in inventory management to track individual items within the system.",
+    "simple": "Use radio tags to identify or track items.",
+    "example": "A reader captures a tagged carton movement.",
+    "note": "Accurate events and processes are still required.",
+    "id": "rfid-radio-frequency-identification"
+  },
+  {
+    "term": "Safety Stock",
+    "exact": "A safety stock (often referred to as a buffer stock) is extra inventory held to protect against stockouts caused by demand fluctuations or supply delays.",
+    "simple": "Hold a protective buffer against uncertain demand or supply.",
+    "example": "60 extra blanks protect against variation beyond expected lead-time demand.",
+    "note": "The needed buffer depends on service ambition and variability.",
+    "id": "safety-stock"
+  },
+  {
+    "term": "Six Sigma",
+    "exact": "Six Sigma is a data-driven methodology and set of techniques used to improve business processes by eliminating defects and reducing variability",
+    "simple": "Use data to reduce defects and variation in a process.",
+    "example": "Measure misprints and test which process changes reduce them.",
+    "note": "Do not use the label as a synonym for every quality initiative.",
+    "id": "six-sigma"
+  },
+  {
+    "term": "SKU – Stock Keeping Unit",
+    "exact": "A stock-keeping unit (SKU) is a code attached to items within your inventory often in form of a barcode, QR code or RFID tags. ",
+    "simple": "Give each separately managed stock variant an identity.",
+    "example": "Small white and medium white shirts have different SKUs.",
+    "note": "A SKU is the identity; barcode, QR and RFID are ways to encode or capture it.",
+    "id": "sku-stock-keeping-unit"
+  },
+  {
+    "term": "TQM – Total Quality Management",
+    "exact": "An organisation-wide effort to work with quality and continous improvement (Kaizen). Today often replaced by ISO9000, Six Sigma and Lean manufacturing.",
+    "simple": "Make quality and ongoing improvement a responsibility across the organisation.",
+    "example": "Sales and printing prevent specification errors together.",
+    "note": "The source’s replacement claim is a broad teaching description; TQM, lean and Six Sigma can coexist.",
+    "id": "tqm-total-quality-management"
+  },
+  {
+    "term": "VMI = Vendor-managed inventory",
+    "exact": "Vendor-managed inventory (VMI) is inventory that is monitored and replenished by the vendor itself—rather than the business owner.",
+    "simple": "The supplier monitors stock and initiates replenishment under agreed rules.",
+    "example": "The carton supplier reviews usage and refills within agreed limits.",
+    "note": "VMI does not automatically specify who owns the inventory.",
+    "id": "vmi-vendor-managed-inventory"
+  },
+  {
+    "term": "WMS – Warehouse Management System",
+    "exact": "A WMS helps a business to manage day-to-day operations within their warehouse. ",
+    "simple": "Support daily warehouse execution and location control.",
+    "example": "Guide receiving, put-away, picking and dispatch.",
+    "note": "A WMS has a different focus from broader ERP integration and MRP planning.",
+    "id": "wms-warehouse-management-system"
+  }
+]
