@@ -1,0 +1,122 @@
+[
+  {
+    "id": "01-marketing",
+    "title": "Introduction to marketing and industrial marketing",
+    "shortTitle": "Marketing & industrial marketing",
+    "summary": "Needs, business buyers and the six STP steps.",
+    "lectureUrl": "sources/sub-module-5-marketing-and-supply-chain-for-managers-introduction-to-marketing-and-industrial-marketing.pdf",
+    "readings": [
+      {
+        "title": "Module reading list",
+        "url": "sources/readings-submodule-5-marketing-and-supply-chain-for-managers-2026.pdf",
+        "note": "No separate paper is named on this lecture’s slides."
+      }
+    ]
+  },
+  {
+    "id": "02-scm-strategy",
+    "title": "SCM and strategy fundamentals",
+    "shortTitle": "SCM & strategy fundamentals",
+    "summary": "Flows, integration, the four Rs and Barney’s VRIN tests.",
+    "lectureUrl": "sources/sub-module-5-marketing-and-supply-chain-for-managers-scm-and-strategy-fundamentals.pdf",
+    "readings": [
+      {
+        "title": "Christopher (2011), chapter 1 excerpt",
+        "url": "sources/excerpt-from-chapter-1-martin-christopher.pdf",
+        "note": "Course reading list: supply chain basics."
+      },
+      {
+        "title": "Barney (1991), Firm Resources and Sustained Competitive Advantage",
+        "url": "sources/barney-1991-firm-resources-and-sustained-competitive-advantage.pdf",
+        "note": "Course reading list: resources and strategy."
+      }
+    ]
+  },
+  {
+    "id": "03-purchasing",
+    "title": "Purchasing and supply management",
+    "shortTitle": "Purchasing & supply management",
+    "summary": "Make or buy, suppliers, outsourcing and Kraljic.",
+    "lectureUrl": "sources/sub-module-5-marketing-and-supply-chain-for-managers-purchasing-and-supply-management.pdf",
+    "readings": [
+      {
+        "title": "Gadde & Håkansson (1994), Three strategic issues",
+        "url": "sources/the-changing-role-of-purchasing-reconsidering-three-strategic-issues.pdf",
+        "note": "Required reading named on slide 2."
+      },
+      {
+        "title": "Kraljic (1983), Purchasing Must Become Supply Management",
+        "url": "sources/purchasing-must-become-supply-management.pdf",
+        "note": "Required reading named on slide 2."
+      }
+    ]
+  },
+  {
+    "id": "04-inventory",
+    "title": "Inventory management",
+    "shortTitle": "Inventory management",
+    "summary": "Costs, break-even, EOQ, reorder point and stock systems.",
+    "lectureUrl": "sources/sub-module-5-marketing-and-supply-chain-for-managers-inventory-management.pdf",
+    "readings": [
+      {
+        "title": "Operations and inventory glossary",
+        "url": "sources/glossary-for-operations-and-inventory-management.docx",
+        "note": "Required reading named on slide 2."
+      },
+      {
+        "title": "Panigrahi, Shrivastava & Nudurupati (2024), Inventory management and SME performance",
+        "url": "https://www.emerald.com/ijppm/article/73/9/2901/1212978/Impact-of-inventory-management-on-SME-performance",
+        "note": "Required on slide 2. Abstract only; the full PDF was not uploaded.",
+        "external": true,
+        "available": false
+      }
+    ]
+  },
+  {
+    "id": "05-operations",
+    "title": "Operations management",
+    "shortTitle": "Operations management",
+    "summary": "Quality, waste, lean and agile, lead time and postponement.",
+    "lectureUrl": "sources/sub-module-5-marketing-and-supply-chain-for-managers-operations-management.pdf",
+    "readings": [
+      {
+        "title": "Naylor, Naim & Berry (1999), Leagility",
+        "url": "sources/leagility-integrating-the-lean-and-agile-manufacturing-paradigms-in-the-total-supply-chain.pdf",
+        "note": "Required reading named on slide 2."
+      },
+      {
+        "title": "Operations and inventory glossary",
+        "url": "sources/glossary-for-operations-and-inventory-management.docx",
+        "note": "Required reading named on slide 2."
+      }
+    ]
+  },
+  {
+    "id": "06-networks",
+    "title": "Industrial networks",
+    "shortTitle": "Industrial networks",
+    "summary": "Interaction, ARA, networking and network pictures.",
+    "lectureUrl": "sources/sub-module-5-marketing-and-supply-chain-for-managers-industrial-networks.pdf",
+    "readings": [
+      {
+        "title": "Ford & Mouzas (2013), The theory and practice of business networking",
+        "url": "sources/the-theory-and-practice-of-business-networking.pdf",
+        "note": "Required reading named on slide 2."
+      }
+    ]
+  },
+  {
+    "id": "07-negotiations",
+    "title": "Negotiations",
+    "shortTitle": "Negotiations",
+    "summary": "BATNA, seven phases and linked offers.",
+    "lectureUrl": "sources/sub-module-5-marketing-and-supply-chain-for-managers-negotiations.pdf",
+    "readings": [
+      {
+        "title": "Larsson (2020), Negotiations — an introduction",
+        "url": "sources/negotiations-an-introduction.pdf",
+        "note": "Required reading named on slide 2."
+      }
+    ]
+  }
+]

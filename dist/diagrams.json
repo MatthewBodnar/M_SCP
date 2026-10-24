@@ -1,19 +1,19 @@
 {
   "needs": {
     "title": "Needs → wants → demands",
-    "description": "A need takes a specific form as a want; purchasing power makes it demand."
+    "description": "A need is something missing. A want is a chosen solution. Demand includes the ability to pay."
   },
   "stp": {
     "title": "Choose whom to serve and what to promise",
-    "description": "Segmentation, targeting and positioning, with two tasks in each stage."
+    "description": "Find groups, choose which to serve, and explain the offer. Each stage has two steps."
   },
   "supply": {
     "title": "Manage flows and relationships together",
-    "description": "Physical goods generally move downstream and requirements upstream. Information also travels both ways."
+    "description": "Goods go towards customers. Orders usually go towards suppliers. Information moves both ways."
   },
   "integration": {
     "title": "The scope of integration expands",
-    "description": "Baseline, functional, internal and external integration."
+    "description": "Move from separate departments to working with suppliers and customers."
   },
   "fourrs": {
     "title": "Four Rs, four distinct questions",
@@ -29,23 +29,23 @@
   },
   "valuechain": {
     "title": "Porter’s value chain",
-    "description": "Four support activities span five primary activities. Each contributes to value and cost."
+    "description": "The model shows five main activities and four support activities. They affect value and cost."
   },
   "vrin": {
     "title": "Four tests for a sustained resource advantage",
-    "description": "Valuable, rare, imperfectly imitable and non-substitutable. All tests require analysis in context."
+    "description": "Test whether a resource is valuable, rare, hard to copy and has no easy substitute."
   },
   "ara": {
     "title": "ARA: who, what and doing",
-    "description": "Actor bonds, resource ties and activity links influence one another."
+    "description": "Actor bonds, resource ties and activity links affect each other."
   },
   "interaction": {
     "title": "IMP: interaction sits inside a wider context",
-    "description": "Organisations and individuals exchange products, information, finance and social contact within an atmosphere and environment."
+    "description": "Firms and people exchange goods, information, money and social contact. The wider situation affects them."
   },
   "networklevels": {
     "title": "Three layers across three analysis levels",
-    "description": "ARA layers and relationship, small-world, wider-world levels are different dimensions."
+    "description": "ARA parts differ from three levels: one relationship, nearby links and wider changes."
   },
   "makebuy": {
     "title": "Ownership and coordination are different choices",
@@ -57,7 +57,7 @@
   },
   "kraljic": {
     "title": "Kraljic’s purchasing portfolio",
-    "description": "Profit impact rises upward; supply risk rises rightward."
+    "description": "Profit impact rises upwards. Supply risk rises to the right."
   },
   "kraljicprocess": {
     "title": "The matrix starts a wider management process",
@@ -65,19 +65,19 @@
   },
   "transformation": {
     "title": "Operations transform inputs into outcomes",
-    "description": "Inputs pass through transformation to outputs. Feedback improves future decisions."
+    "description": "Inputs become outputs. Feedback helps improve the next order."
   },
   "timeprocess": {
     "title": "Follow elapsed time, not only processing time",
-    "description": "Teaching example: four hours of activity plus twelve hours waiting, then six waiting hours removed."
+    "description": "Work takes four hours. Waiting takes twelve. The new plan removes six hours of waiting."
   },
   "fishbone": {
     "title": "Organise possible causes before testing them",
-    "description": "People, machines, material and methods are investigation categories, not proof of causation."
+    "description": "List possible causes under people, machines, materials and methods. Check which cause is real."
   },
   "ptime": {
     "title": "Can the full process fit the customer’s wait?",
-    "description": "Illustrative source-make-deliver time totals eight days while acceptable wait is three."
+    "description": "Supply, printing and delivery take eight days. The customer will wait only three days."
   },
   "postpone": {
     "title": "Delay differentiation, preserve options",
@@ -85,7 +85,7 @@
   },
   "leagile": {
     "title": "Lean upstream · agile downstream",
-    "description": "The customer order decoupling point separates common forecast-supported work from order-specific response."
+    "description": "Prepare common blanks before the order. Print the customer design after the order."
   },
   "generic": {
     "title": "Match strategy to demand and supply timing",
@@ -101,7 +101,7 @@
   },
   "reorder": {
     "title": "Reorder before the stock is exhausted",
-    "description": "Q=600, demand=40/day, lead=5 days, safety=60, ROP=260. Schematic sawtooth."
+    "description": "Order size is 600. Daily use is 40. Delivery takes 5 days. Safety stock is 60. Reorder at 260."
   },
   "eoq": {
     "title": "EOQ balances opposing costs",
@@ -117,7 +117,7 @@
   },
   "negotiationpie": {
     "title": "Divide value · create value",
-    "description": "Distributive bargaining and integrative problem solving can occur in the same negotiation."
+    "description": "A negotiation can divide existing value and find new value. It can do both."
   },
   "phases": {
     "title": "Agreement is not finished until it is implemented",

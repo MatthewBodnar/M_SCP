@@ -1,40 +1,52 @@
-# Supply Lab — Marketing & Supply Chain Management
+# Supply Lab — seven-lecture GitHub edition
 
-A complete interactive revision website for the supplied Module 5 lectures, readings, glossary and past papers.
+Seven short chapters follow the seven lecture PDFs. Each chapter links its lecture and recommended readings, keeps the source definitions, and uses short explanations with Campus Tees examples.
 
-**Live website:** https://supply-chain-study-lab.open-pike-1567.chatgpt.site
+This repository is independent of the shared ChatGPT Study Lab. The shared website keeps its existing 14-chapter version. This GitHub edition has no hosted Site project ID and is not deployed to that Site.
 
-**Repository:** https://github.com/MatthewBodnar/M_SCP
+## Chapters
 
-- 33,259 words of chapters, glossary explanations and past-exam practice.
-- 14 connected chapters and 31 scalable SVG diagrams with zoom, pan and reset.
-- All 25 glossary entries, retaining the original wording alongside simpler explanations and examples.
-- EOQ, reorder-point and break-even calculators and an interactive Kraljic explorer.
-- All 12 questions from the three supplied Inspera papers, checked against the original PDFs.
-- Model answers, memory cues, coverage checklists, paper/topic/point filters and a practice stopwatch.
-- Device-local answer drafts and self-checks, with an answer download button.
-- Full-course search including past-exam answers, text-size controls, focus/dark modes and reading progress.
-- All 16 original course files plus the 3 past-exam PDFs available in the source reader.
-- Responsive layouts and offline caching of the core website and diagrams after an initial online visit. Original PDFs become available offline after opening them online.
+1. Introduction to marketing and industrial marketing — lecture and module reading list. No separate paper is named in these slides.
+2. SCM and strategy fundamentals — Christopher's chapter 1 excerpt and Barney (1991), matched to the module reading list by topic.
+3. Purchasing and supply management — Gadde & Håkansson (1994) and Kraljic (1983).
+4. Inventory management — glossary and the recommended Panigrahi et al. (2024) review. The full review PDF was not uploaded; the chapter clearly labels its short publisher-abstract summary and links the publisher.
+5. Operations management — glossary and Naylor, Naim & Berry (1999).
+6. Industrial networks — Ford & Mouzas (2013).
+7. Negotiations — Larsson (2020).
 
-## Run
+The chapter text is about 4,100 words. Explanations aim at B2 English or simpler. Formal course terms remain, with simple meanings beside them. Source quotations, paper titles and exact glossary text keep the original wording.
 
-The ready-to-use website is in `dist/`. It has no JavaScript package dependencies or backend.
+## Practice and tools
+
+- Three new practice papers, each with two 5-point and two 10-point questions.
+- Twelve fresh prompts and short study answers, with saved drafts, answer checks and a stopwatch.
+- The original past-exam questions are not reused in the new practice bank. The three original PDFs remain in Sources.
+- All 25 glossary entries keep their exact source text and have short meanings and Campus Tees examples.
+- Eighteen selected diagrams appear in the chapters. All 31 original SVG files remain in the repository.
+- EOQ, reorder-point and break-even calculators, a Kraljic explorer, search, text-size controls and dark mode.
+- All 19 original uploaded documents remain available, including lecture PDFs, reading PDFs, the glossary and the old exam PDFs.
+
+The questions and answers are study material, not official grading rubrics or predictions of the next exam.
+
+## Run or host
+
+The ready-to-use static website is in `dist/` and has no JavaScript package dependencies.
 
 ```sh
 python3 -m http.server 8000 --directory dist
 ```
 
-Open `http://localhost:8000`. Use HTTP, since course data is loaded with `fetch`; opening an HTML file directly is insufficient.
+Open `http://localhost:8000`. Use an HTTP server, because the app loads `course.json` with `fetch`.
 
-## Edit and rebuild
+GitHub Pages can publish **main → / (root)**. The root `index.html` forwards to `dist/`. `.nojekyll` is included. Any other static host can serve `dist/` directly.
 
-`content/` contains the 14 chapter Markdown files and `past-exams.json`. The latter retains the exact question wording, original point values, teaching answers, checklist items and chapter links. `source-material/` retains the supplied originals; the exam PDFs are in `source-material/exams/`.
+## Edit and check
 
-The build requires Python packages `python-docx` and `PyMuPDF`. The output is committed, so rebuilding is optional when hosting or reading.
+`content/lectures.json` maps the seven lectures to the original files and readings. The seven Markdown files contain the short chapters. `content/practice-exams.json` contains the new question bank. `content/glossary-data.json` keeps the exact glossary and simple explanations. `source-material/` keeps the original uploads.
+
+The build uses Python with `PyMuPDF`. Checking glossary source text also uses `python-docx`.
 
 ```sh
-python3 scripts/diagrams.py
 python3 scripts/build.py
 python3 scripts/check.py
 node --check dist/app.js
@@ -42,22 +54,12 @@ node --check dist/exams.js
 node scripts/check-calculations.cjs
 ```
 
-`scripts/check.py` validates all chapters, glossary entries, diagram references and source files, compares all 12 question prompts with their PDFs, checks the 5/5/10/10 point structure and verifies links to specific course sections. Calculation checks cover worked values, changed inputs and invalid inputs.
+`python3 scripts/diagrams.py` can regenerate the original 31 SVG assets. The build selects the ones used by the short chapters.
 
-## Document access
+The checks verify the seven lecture links, reading links, source files, exact glossary text, new practice-paper structure, chapter anchors and diagram references. They also check that no new prompt copies a supplied past-exam question.
 
-All 19 original documents are included in this public repository, with the owner’s explicit approval. Study Lab’s Original sources page provides the built-in reader plus public GitHub view and download links for every file. Existing invited viewers can use these links without separate file-sharing permissions. The original files are in `source-material/`, and the hosted copies are in `dist/sources/`.
+## Source scope and local data
 
-## Hosting
+The original authors retain rights to their documents. The owner explicitly approved publishing the 19 uploaded originals in this public repository. The missing inventory review is linked through the publisher; it has not been added as an uploaded PDF.
 
-Any static host can serve `dist/` unchanged. Relative asset paths support a project subdirectory. To use GitHub Pages, select **Settings → Pages → Deploy from a branch → main → / (root)**; the root `index.html` forwards visitors into `dist/`. GitHub Pages must be enabled in repository settings; uploading this repository alone does not enable it. The live website above is already published separately. `.openai/hosting.json` retains its existing Site identity and output configuration.
-
-There is no analytics service or external runtime dependency. Progress, answers and preferences remain in the browser's `localStorage`; they do not synchronise across devices or origins. Changing hosts does not carry existing saved drafts to the new address. Use **Download my answers** to retain a text copy.
-
-## Sources and scope
-
-The original course draws on the uploaded lectures, the operations/inventory glossary and readings by Barney; Christopher; Ford & Mouzas; Gadde & Håkansson; Kraljic; Naylor, Naim & Berry; and Larsson. Original authors retain rights to their documents. The exact source wording, simplified explanations, invented cases and historical examples are identified in the website.
-
-The initial 28,094-word website was rebuilt from the recovered 16 uploads after the earlier working draft was lost. This edition preserves that material and adds the three supplied past papers and expanded explanations for bullwhip, risk, sustainability and SCOR. The SCOR and bullwhip sections identify supplementary primary references. Classic SCOR and the current Digital Standard are distinguished because the supplied papers do not specify a version. The separate Panigrahi et al. review named on a slide and optional background readings were not provided as full texts.
-
-The dates and official marking schemes of the three past papers were not supplied. Model answers and self-checks are study material, not official grading rubrics. Topic counts describe the supplied papers and do not predict the next exam. Announced grade thresholds are retained from the teacher's information.
+Progress, preferences and practice drafts stay in the browser's local storage. They do not sync to another device or to the separate shared Study Lab. Use **Download my answers** to keep a text copy. The core website and selected diagrams work offline after an online visit. Original source files are cached after they are opened online.

@@ -1,0 +1,337 @@
+{
+  "edition": "github-seven-lectures",
+  "note": "These are new study questions written in the style of the supplied exams. Each paper has two 5-point and two 10-point questions. They do not repeat the supplied past questions. Answers and checklists are study help, not official marking schemes.",
+  "papers": [
+    {
+      "id": "practice-1",
+      "title": "Practice paper 1",
+      "questions": [
+        {
+          "id": "practice-1-q1",
+          "number": 1,
+          "points": 5,
+          "topic": "Marketing basics",
+          "prompt": "Shortly describe the difference between needs, wants and demands. Give one example of each from Campus Tees.",
+          "plain": "Define each term and use one connected example.",
+          "memory": "Need: something missing. Want: chosen solution. Demand: can pay.",
+          "links": [
+            {
+              "id": "01-marketing",
+              "label": "Read the lecture chapter"
+            }
+          ],
+          "answer": [
+            "A need is a state of felt deprivation. A want is the form a need takes through culture and personality. Demand means wants backed by purchasing power.",
+            "A student club needs its team to feel united. It wants orange shirts with its logo. When it has a budget and can pay for 100 shirts, this becomes demand. The three terms show different steps; they are not three names for buying a shirt."
+          ],
+          "checklist": [
+            "Define all three terms",
+            "Show the difference with one example",
+            "Include purchasing power for demand"
+          ],
+          "pitfall": "Wanting a product does not mean the buyer can pay for it."
+        },
+        {
+          "id": "practice-1-q2",
+          "number": 2,
+          "points": 5,
+          "topic": "Cost types",
+          "prompt": "Shortly describe fixed and variable costs. Give one example of each and explain why fixed costs can increase.",
+          "plain": "Explain what changes when output changes.",
+          "memory": "Fixed within a range; variable changes with output.",
+          "links": [
+            {
+              "id": "04-inventory",
+              "label": "Read the lecture chapter"
+            }
+          ],
+          "answer": [
+            "Fixed costs stay the same within a given output range and period. Variable costs change with output. Campus Tees pays the same monthly room rent when it prints 100 or 200 shirts. Buying more blank shirts raises its material cost.",
+            "Fixed does not mean unchanged forever. If the firm needs another room, rent can rise to a new fixed level. State the time period and output range when explaining the cost."
+          ],
+          "checklist": [
+            "Define fixed and variable costs",
+            "Give a suitable example of each",
+            "Explain a change in capacity"
+          ],
+          "pitfall": "Direct and variable are different cost labels. Do not treat them as the same idea."
+        },
+        {
+          "id": "practice-1-q3",
+          "number": 3,
+          "points": 10,
+          "topic": "Lean and agile",
+          "prompt": "Describe and exemplify how lean and agile methods can be combined in a printing company. Discuss where the customer order decoupling point should be placed.",
+          "plain": "Explain both methods, their link and one limit.",
+          "memory": "Steady common work first; order-specific work later.",
+          "links": [
+            {
+              "id": "05-operations",
+              "label": "Read the lecture chapter"
+            }
+          ],
+          "answer": [
+            "Lean removes waste and supports steady work. Agile uses good market information and flexible resources to respond to change. Leagile combines them in one chain.",
+            "Campus Tees can buy common blank shirts in steady batches. It waits for the club to confirm the design before printing. The customer order decoupling point is where the product becomes linked to that order. Holding common blanks before printing supports this choice.",
+            "This can reduce unsold printed designs while keeping delivery quick. However, the printer still needs to predict total demand and sizes. It also needs enough printing time and capacity after the order arrives. If finishing takes longer than the customer will wait, the plan must change."
+          ],
+          "checklist": [
+            "Explain lean and agile",
+            "Place and explain the CODP",
+            "Give a connected Campus Tees example",
+            "Discuss stock, time or capacity"
+          ],
+          "pitfall": "Do not move work after the order unless it can still meet the promised date."
+        },
+        {
+          "id": "practice-1-q4",
+          "number": 4,
+          "points": 10,
+          "topic": "Negotiation preparation",
+          "prompt": "Describe and discuss how Campus Tees should prepare for a supplier negotiation. Use BATNA and give two examples of issues that could be negotiated together.",
+          "plain": "Show how preparation can lead to a better complete offer.",
+          "memory": "Know needs, limits and a real alternative. Trade issues together.",
+          "links": [
+            {
+              "id": "07-negotiations",
+              "label": "Read the lecture chapter"
+            }
+          ],
+          "answer": [
+            "Campus Tees should check demand, prices, quality needs, delivery dates and available suppliers. It should rank its needs and set its worst acceptable, fair and best possible outcomes.",
+            "BATNA means best alternative to a negotiated agreement. A qualified second supplier that can deliver on time is a real alternative. A maximum price is a limit, not the BATNA itself.",
+            "First, Campus Tees could offer steady order volume in return for a lower price. Second, it could give earlier order information in return for reliable weekly deliveries. These packages may help both sides. The firm should compare the complete offer with its alternative, then write down the agreed terms and responsibilities."
+          ],
+          "checklist": [
+            "Explain preparation and three outcome levels",
+            "Use a real BATNA",
+            "Give two linked trades",
+            "Discuss and confirm the full offer"
+          ],
+          "pitfall": "A cheap offer is poor if the supplier cannot meet the required quality or date."
+        }
+      ]
+    },
+    {
+      "id": "practice-2",
+      "title": "Practice paper 2",
+      "questions": [
+        {
+          "id": "practice-2-q1",
+          "number": 1,
+          "points": 5,
+          "topic": "Supply chain integration",
+          "prompt": "Shortly describe the four stages of supply chain integration. Illustrate the final stage with one example.",
+          "plain": "Show how the scope of cooperation becomes wider.",
+          "memory": "Separate departments → functions → whole firm → suppliers and customers.",
+          "links": [
+            {
+              "id": "02-scm-strategy",
+              "label": "Read the lecture chapter"
+            }
+          ],
+          "answer": [
+            "At the baseline stage, departments mainly work separately. Functional integration joins related tasks into functions. Internal integration joins work across the firm. External integration connects the firm with suppliers and customers.",
+            "For example, Campus Tees shares confirmed club orders with its wholesaler. Both firms use the same delivery plan. This helps purchasing, printing and supply support the final deadline rather than follow separate plans."
+          ],
+          "checklist": [
+            "Name the four stages",
+            "Show the move from local to wider coordination",
+            "Apply external integration"
+          ],
+          "pitfall": "Working well inside the company is not yet external integration."
+        },
+        {
+          "id": "practice-2-q2",
+          "number": 2,
+          "points": 5,
+          "topic": "Quality improvement",
+          "prompt": "Describe and exemplify the difference between TQM and BPR.",
+          "plain": "Compare ongoing quality work with a major process change.",
+          "memory": "TQM: quality across the firm. BPR: redesign the process.",
+          "links": [
+            {
+              "id": "05-operations",
+              "label": "Read the lecture chapter"
+            }
+          ],
+          "answer": [
+            "TQM is a firm-wide effort to improve quality and keep improving. BPR means business process reengineering: a major redesign of a process.",
+            "Campus Tees can use TQM by having sales and printing check why wrong logos occur and improve their daily routine. BPR could replace a slow paper-based order process with a new shared order flow. Both may improve results, but they differ in the size and type of change."
+          ],
+          "checklist": [
+            "Explain TQM",
+            "Explain BPR",
+            "Use examples that show their difference"
+          ],
+          "pitfall": "Installing software alone does not prove that the process has been redesigned well."
+        },
+        {
+          "id": "practice-2-q3",
+          "number": 3,
+          "points": 10,
+          "topic": "Resources and advantage",
+          "prompt": "Use Barney's resource-based view to discuss whether Campus Tees can keep an advantage over other printers. Apply the VRIN tests to a shared supplier routine.",
+          "plain": "Explain why rivals may find some resources hard to copy.",
+          "memory": "Value, rarity, hard to copy, no easy substitute.",
+          "links": [
+            {
+              "id": "02-scm-strategy",
+              "label": "Read the lecture chapter"
+            }
+          ],
+          "answer": [
+            "The resource-based view looks at how a firm uses resources such as equipment, skills, knowledge and routines. Barney asks when these differences can support a sustained advantage.",
+            "A shared routine that helps Campus Tees meet event deadlines is valuable if clubs care about reliable delivery. It is rare if few rivals have an equal routine. It may be hard to copy because it depends on years of trust and shared learning. It is non-substitutable only if rivals cannot gain the same benefit through another available method.",
+            "The routine must pass all four tests. A standard printer that anyone can buy is less likely to do so. Even a strong routine can lose value if club needs change. Sustained advantage does not mean that success lasts forever."
+          ],
+          "checklist": [
+            "Explain the resource-based view",
+            "Apply each VRIN test",
+            "Explain one reason copying is hard",
+            "Consider substitutes or changing needs"
+          ],
+          "pitfall": "Being expensive or useful alone does not make a resource a source of sustained advantage."
+        },
+        {
+          "id": "practice-2-q4",
+          "number": 4,
+          "points": 10,
+          "topic": "Inventory calculations",
+          "prompt": "Campus Tees uses 18,000 blanks per year over 300 working days. Ordering costs €40 per order and holding costs €4 per unit per year. Lead time is 4 working days and safety stock is 60. Calculate EOQ and reorder point. Explain their different purposes and state two assumptions.",
+          "plain": "Show the formula, working, units and meaning.",
+          "memory": "EOQ: how much? ROP: when?",
+          "links": [
+            {
+              "id": "04-inventory",
+              "label": "Read the lecture chapter"
+            }
+          ],
+          "answer": [
+            "EOQ = √(2DK/h) = √(2 × 18,000 × 40 / 4) = √360,000 = 600 blanks per order.",
+            "Daily demand = 18,000 / 300 = 60 blanks. ROP = daily demand × lead time + safety stock = 60 × 4 + 60 = 300 blanks.",
+            "EOQ sets the order size. ROP sets the point at which the firm starts a new order. At this EOQ, there are 30 orders per year and 300 units of average cycle stock. Annual ordering and cycle-stock holding costs are €1,200 each.",
+            "The basic EOQ model assumes steady demand and a fixed unit price. It also assumes known lead time and complete deliveries. Daily demand and lead time must use matching time units."
+          ],
+          "checklist": [
+            "EOQ = 600 blanks",
+            "Daily demand = 60; ROP = 300",
+            "Explain quantity versus timing",
+            "State at least two model assumptions"
+          ],
+          "pitfall": "Do not multiply annual demand directly by four days."
+        }
+      ]
+    },
+    {
+      "id": "practice-3",
+      "title": "Practice paper 3",
+      "questions": [
+        {
+          "id": "practice-3-q1",
+          "number": 1,
+          "points": 5,
+          "topic": "Network pictures",
+          "prompt": "Shortly describe a network picture. Give one example showing why two firms may understand the same supply problem differently.",
+          "plain": "Explain a partial view of connected firms.",
+          "memory": "Each actor sees only part of the network.",
+          "links": [
+            {
+              "id": "06-networks",
+              "label": "Read the lecture chapter"
+            }
+          ],
+          "answer": [
+            "A network picture is an actor's understanding of its business network. It is incomplete because the actor does not know every link or cause.",
+            "Campus Tees may think late shirts are caused by a slow courier. The courier may know that the wholesaler released the boxes late. Their different views can lead to different actions. Comparing information can help them find the cause and agree on a useful change."
+          ],
+          "checklist": [
+            "Explain the actor's view",
+            "Show why it is incomplete",
+            "Give two different views of one problem"
+          ],
+          "pitfall": "A network picture is not a complete, objective map that everyone shares."
+        },
+        {
+          "id": "practice-3-q2",
+          "number": 2,
+          "points": 5,
+          "topic": "Planning systems",
+          "prompt": "Shortly describe ERP and MRP. Explain how their roles differ in Campus Tees.",
+          "plain": "Define both systems and connect them to one order.",
+          "memory": "ERP joins business data; MRP plans materials.",
+          "links": [
+            {
+              "id": "04-inventory",
+              "label": "Read the lecture chapter"
+            }
+          ],
+          "answer": [
+            "ERP means Enterprise Resource Planning. It joins data and processes across the business. MRP means Material Requirements Planning. It works out the materials, amounts and timing needed for planned output.",
+            "Campus Tees can use ERP to connect sales, purchasing and finance. For an order of 300 shirts, MRP checks stock and planned receipts to find how many extra blanks are needed and when. The roles can be linked inside one system, but they are not the same task."
+          ],
+          "checklist": [
+            "Expand ERP and MRP",
+            "Explain their different jobs",
+            "Give one connected order example"
+          ],
+          "pitfall": "Do not confuse MRP with the finished-output plan, which is the MPS."
+        },
+        {
+          "id": "practice-3-q3",
+          "number": 3,
+          "points": 10,
+          "topic": "Outsourcing",
+          "prompt": "Describe and exemplify the main benefits and hidden costs of outsourcing. Discuss whether Campus Tees should keep its printing work inside the business.",
+          "plain": "Use the business needs to compare making and buying.",
+          "memory": "Outside skills and cost gains; quality, coordination and dependence.",
+          "links": [
+            {
+              "id": "03-purchasing",
+              "label": "Read the lecture chapter"
+            }
+          ],
+          "answer": [
+            "Outsourcing transfers a business process to an independent outside firm. It can provide skills, lower costs and free resources for core work. Campus Tees could use a specialist for a print method it cannot offer itself.",
+            "The invoice is not the full cost. Hidden costs include defects, checking the supplier, sharing information and setting up the new work process. Late changes may also need extra coordination. The firm may become dependent on the supplier or lose useful skills.",
+            "Campus Tees should keep printing inside if that skill is central to its customer promise and hard to replace. It may buy specialist work outside if the supplier adds real value. The decision should compare quality, delivery, skills and total cost, rather than choose the lowest price alone."
+          ],
+          "checklist": [
+            "Define outsourcing",
+            "Explain benefits with an example",
+            "Explain hidden costs",
+            "Give a balanced make-or-buy decision"
+          ],
+          "pitfall": "Outsourcing concerns who does the work. Offshoring concerns where it is done."
+        },
+        {
+          "id": "practice-3-q4",
+          "number": 4,
+          "points": 10,
+          "topic": "Process improvement",
+          "prompt": "Describe how Campus Tees can reduce waiting time and defects in an order process. Give two improvements and discuss one cost or limit of each.",
+          "plain": "Connect each change to the problem it solves.",
+          "memory": "Map time; find causes; change the work; check results.",
+          "links": [
+            {
+              "id": "05-operations",
+              "label": "Read the lecture chapter"
+            }
+          ],
+          "answer": [
+            "First, Campus Tees can map the time spent on work and waiting. If orders wait for artwork, a clear approval deadline and shared order status can reduce delay. However, staff must keep the data correct, and customers must approve the design on time.",
+            "Second, it can check size and logo details before a full print run. A small trial can find errors early and reduce rework. The check takes time and uses a sample, so it should focus on errors that matter.",
+            "A cause-and-effect diagram can help list possible causes under people, machines, materials and methods. The firm should check these ideas with evidence. It can then compare waiting time, wrong prints and delivery results. Removing all checks may look faster but can lead to more defects."
+          ],
+          "checklist": [
+            "Give two distinct improvements",
+            "Explain how each helps",
+            "Discuss a cost or limit for each",
+            "Use evidence and check results"
+          ],
+          "pitfall": "Listing possible causes does not prove which cause produced the error."
+        }
+      ]
+    }
+  ]
+}

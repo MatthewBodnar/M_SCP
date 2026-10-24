@@ -1,0 +1,20 @@
+[
+  {
+    "id": "paper-1",
+    "title": "Past paper 1",
+    "file": "GetInsperaExamPdf1.pdf",
+    "url": "sources/exams/GetInsperaExamPdf1.pdf"
+  },
+  {
+    "id": "paper-2",
+    "title": "Past paper 2",
+    "file": "GetInsperaExamPdf2.pdf",
+    "url": "sources/exams/GetInsperaExamPdf2.pdf"
+  },
+  {
+    "id": "paper-3",
+    "title": "Past paper 3",
+    "file": "GetInsperaExamPdf3.pdf",
+    "url": "sources/exams/GetInsperaExamPdf3.pdf"
+  }
+]

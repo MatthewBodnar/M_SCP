@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#163e36"><meta name="description" content="A complete, interactive Marketing and Supply Chain Management study companion. Learn with plain-English explanations, diagrams, calculations and exam answers."><title>Supply Lab · Marketing & Supply Chain</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#163e36"><meta name="description" content="Seven short lecture chapters with exact definitions, simple English, Campus Tees examples and new practice papers."><title>Supply Lab · Marketing & Supply Chain</title>
 <link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="exams.css"><script src="exams.js" defer></script><script src="app.js" defer></script>
 </head>
 <body>
@@ -9,9 +9,9 @@
 <aside class="sidebar" id="sidebar" aria-label="Course navigation">
 <a class="brand" href="#home"><span class="brand-icon">S<span>↗</span></span><span>SUPPLY LAB<small>Marketing & Supply Chain</small></span></a>
 <div class="course-label">YOUR STUDY SPACE <span>MODULE 05</span></div>
-<nav class="main-nav"><a href="#home" data-page="home"><span>⌂</span> Overview</a><a href="#lab" data-page="lab"><span>⊞</span> Interactive lab <small>4</small></a><a href="#past-exams" data-page="past-exams"><span>▧</span> Past exams <small>12</small></a><a href="#13-exam" data-page="13-exam"><span>✎</span> Exam practice</a><a href="#glossary" data-page="glossary"><span>Aa</span> Glossary <small>25</small></a><a href="#sources" data-page="sources"><span>▤</span> Original sources</a></nav>
-<div class="chapter-label">THE LEARNING PATH <span id="chapterCount">14 CHAPTERS</span></div><nav id="chapterNav" aria-label="Chapters"></nav>
-<div class="progress-panel"><div><strong>Your progress</strong><span id="progressLabel">0 / 14</span></div><progress id="courseProgress" value="0" max="14"></progress><small>Saved on this device</small></div>
+<nav class="main-nav"><a href="#home" data-page="home"><span>⌂</span> Overview</a><a href="#lab" data-page="lab"><span>⊞</span> Interactive lab <small>4</small></a><a href="#practice" data-page="practice"><span>✎</span> Practice papers <small>12</small></a><a href="#glossary" data-page="glossary"><span>Aa</span> Glossary <small>25</small></a><a href="#sources" data-page="sources"><span>▤</span> Original sources</a></nav>
+<div class="chapter-label">THE LEARNING PATH <span id="chapterCount">7 LECTURES</span></div><nav id="chapterNav" aria-label="Chapters"></nav>
+<div class="progress-panel"><div><strong>Your progress</strong><span id="progressLabel">0 / 7</span></div><progress id="courseProgress" value="0" max="7"></progress><small>Saved on this device</small></div>
 </aside>
 <div class="scrim" id="scrim"></div>
 <div class="workspace">
@@ -20,7 +20,7 @@
 <main id="main" tabindex="-1"><div class="loading">Preparing your study space…</div></main>
 <footer class="site-footer"><span>Understand it. Connect it. Recall it.</span><a href="#sources">Based on your course materials</a><button id="topBtn">Back to top ↑</button></footer>
 </div>
-<dialog id="searchDialog" class="search-dialog"><div class="search-head"><span>⌕</span><label class="sr-only" for="globalSearch">Search the entire course</label><input id="globalSearch" placeholder="Try actor bonds, EOQ or postponement…" autocomplete="off"><button class="icon-button" data-close="searchDialog" aria-label="Close search">×</button></div><div class="search-help">Search chapters, definitions, examples, the glossary and all 12 past-exam answers.</div><div id="searchResults" class="search-results"></div></dialog>
+<dialog id="searchDialog" class="search-dialog"><div class="search-head"><span>⌕</span><label class="sr-only" for="globalSearch">Search the entire course</label><input id="globalSearch" placeholder="Try actor bonds, EOQ or postponement…" autocomplete="off"><button class="icon-button" data-close="searchDialog" aria-label="Close search">×</button></div><div class="search-help">Search the seven lectures, glossary and new practice answers.</div><div id="searchResults" class="search-results"></div></dialog>
 <dialog id="diagramDialog" class="diagram-dialog"><div class="dialog-toolbar"><strong id="diagramTitle"></strong><div><button id="diagramMinus" aria-label="Zoom diagram out">−</button><output id="diagramScale">100%</output><button id="diagramPlus" aria-label="Zoom diagram in">+</button><button id="diagramReset">Reset</button><button data-close="diagramDialog" aria-label="Close diagram">×</button></div></div><div class="diagram-stage" id="diagramStage"><img id="diagramImage" alt="" draggable="false"></div><p class="dialog-caption" id="diagramCaption"></p><div class="diagram-instruction">Scroll to zoom · drag to pan · Escape to close</div></dialog>
 <dialog id="sourceDialog" class="source-dialog"><div class="dialog-toolbar"><strong id="sourceTitle"></strong><div><a id="sourceNew" target="_blank" rel="noopener">Open full file ↗</a><a id="sourcePublic" target="_blank" rel="noopener">Download original ↓</a><button data-close="sourceDialog" aria-label="Close source">×</button></div></div><iframe id="sourceFrame" title="Original course PDF"></iframe></dialog>
 <div id="toast" class="toast" role="status"></div>

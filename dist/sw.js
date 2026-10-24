@@ -1,4 +1,4 @@
-const CACHE='supply-lab-v3-public-documents';const CORE=['./','index.html','styles.css','exams.css','exams.js','app.js','course.json','diagrams.json','icon.svg'];
+const CACHE='supply-lab-github-seven-v1';const CORE=['./','index.html','styles.css','exams.css','exams.js','app.js','course.json','diagrams.json','icon.svg'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(async cache=>{await cache.addAll(CORE);const data=await(await fetch('diagrams.json')).json();await cache.addAll(Object.keys(data).map(k=>'diagrams/'+k+'.svg'))}).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',e=>{if(e.request.method!=='GET'||new URL(e.request.url).origin!==location.origin)return;e.respondWith(fetch(e.request).then(response=>{if(response.ok){const copy=response.clone();caches.open(CACHE).then(c=>c.put(e.request,copy))}return response}).catch(()=>caches.match(e.request).then(r=>r||Response.error())))})
